@@ -13,3 +13,12 @@ def myName():
 
 print(name) #prints chukwuebuka 
 myName() #prints victor
+
+
+# You can use the global keyword to make a local variable global
+
+def number():
+    global num1
+    num1 = 5
+
+print(num1 + 4) #prints 9
