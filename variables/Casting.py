@@ -1,1 +1,3 @@
-print (4 + 5)
+import sys
+
+print(sys.version)
