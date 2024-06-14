@@ -6,6 +6,8 @@ There are two main identity operators
 x = ["benz", "toyota", "bmw"]
 y = ["benz", "toyota", "bmw"]
 z = x
+print(z)
+
 
 #this prints  NOT OK because even if x and y have same items, they're not same objects
 if( x is y):
