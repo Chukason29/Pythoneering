@@ -5,7 +5,7 @@ Items can be added to a list
 NorthernStates = ["Adamawa", "Bauchi", "Kogi", "Zamfara", "Borno"]
 SouthernStates = ["Abia", "Bayelsa", "Ondo", "Imo", "Rivers"]
 
-#Appending item usingn append()
+#Appending item usingn append()... adds item to the end of the list
 NorthernStates.append("Sokoto") #adding sokoto
 print( NorthernStates)
 
