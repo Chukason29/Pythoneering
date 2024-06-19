@@ -28,5 +28,5 @@ NorthernStates.extend(SouthernStates)
 print(NorthernStates)
 
 #extending a list to a tuple or dict
-NorthernStates.extend({"kebbi":"Kebbi", "taraba":"Taraba", "Gombe":"Gombe"})
+NorthernStates.extend({"kebbi":"Kebbi", "taraba":"Taraba", "Gombe":"Gombe"}) #extended a dictionary
 print(NorthernStates)
