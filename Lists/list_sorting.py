@@ -20,6 +20,11 @@ maxNum = randomNumbers[-1]
 print(maxNum)
 
 
+#to sort by descending number use .sort(reverse=True)
+fruits.sort(reverse=True)
+print(fruits)
+
+#.reverse() reverses the current order of the list...
 
 
 
