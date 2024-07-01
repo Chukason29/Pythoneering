@@ -10,3 +10,8 @@ Continents = ("Africa", "Europe", "Asia", "South America", "North America", "Oce
 print(Nigeria) # will print Africa
 print(Germany) #will print Europe
 print(China) #will print Asia
+
+#Using astericks when unpacking
+(Ghana, Englang, *theRest) = Continents
+
+print(theRest)# This will print a list of the remaining items in the tuple aside the first two unpacked
