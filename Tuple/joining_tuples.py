@@ -8,5 +8,4 @@ allFruits = yellowFruits + greenFruits
 print(allFruits)
 
 #All items within a tuple can be duplicated
-
 print(greenFruits * 2)
