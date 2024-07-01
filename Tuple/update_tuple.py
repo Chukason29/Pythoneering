@@ -10,6 +10,8 @@ fruitsList = list(fruits)
 fruitsList.remove(fruitsList[0])
 fruitsList.remove(fruitsList[-1])
 
+fruitsList.append("Avocado")
+
 fruitsList = tuple(fruitsList)
 
-print(type(fruitsList))
+print(fruitsList)
