@@ -20,6 +20,16 @@ y = 1
 z = 2
 n = 3
 
+outerList = []
+
+for i in range(x + 1):
+    for j in range(y+1):
+        for k in range(z + 1):
+            outerList.append([i,j,k])
+print(outerList)
+
+#Instead of using the above, why not try using List Comprehension Below
+
 permutations = [[a, b, c] for a in range(x+1) for b in range(y+1) for c in range(z+1)]
 print(permutations)
 total = [i for i in permutations if sum(i) != n]
