@@ -6,6 +6,8 @@ Set is one of 4 built-in data types in Python used to store collections of data,
 A set is a collection which is unordered, unchangeable*, and unindexed.
 
 Duplicates Not Allowed
+
+The best way to remove duplicates from a list or tuple, is to just convert them to sets
 """
 # Set declaration
 set1 = {}
