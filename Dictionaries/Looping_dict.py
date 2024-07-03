@@ -16,7 +16,7 @@ for x in student:
 for x, y in student.items():
     print(f"{x}:{y}")
 
-#.copy() to make another copy of that dict in
+#.copy() to make another copy of that dict
 studentDict = student.copy()
 print(studentDict)
 
