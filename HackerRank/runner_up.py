@@ -6,4 +6,5 @@ if __name__ == '__main__':
     scoreArr = list(scoreArr) #making it a list again
     scoreArr.sort(reverse=True)
     runnerUpScore = scoreArr[1]
-    print(scoreArr)
+    print(runnerUpScore)
+    
