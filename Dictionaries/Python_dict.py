@@ -15,4 +15,16 @@ thisdict = {
 #values of each key can be changed
 thisdict["brand"] = "Mercedes"
 
-print(thisdict)
+print(thisdict)# here brand has been changed to mercedes
+
+#values in dicts can be int, float, string, list, tuples, boolean etc
+
+student = {
+    "name" : "Victor",
+    "age" : 26,
+    "is_nigerian" : False,
+    "othernames" : ["ebuka", "James", "Kelly"]
+}
+
+for i in student["othernames"]:
+    print(i, end=", ")
