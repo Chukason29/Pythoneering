@@ -28,3 +28,10 @@ print(student.values()) #value of age changed here
 #.items() returns each key:pair as tuples in a list
 for i in student.items():
     print(f"{i[0]} ==> {i[1]}")
+
+##VERY IMPORTANT
+#check if key exists  ==========>
+if "age" in student:
+    print("its found")
+else:
+    print("Not found")
