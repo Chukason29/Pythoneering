@@ -15,3 +15,8 @@ for x in student:
 #looping through key:value pairs
 for x, y in student.items():
     print(f"{x}:{y}")
+
+#.copy() to make another copy of that dict in
+studentDict = student.copy()
+print(studentDict)
+
