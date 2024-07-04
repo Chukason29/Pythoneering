@@ -21,3 +21,10 @@ def student(studentName, studentClass):
     print(f"My name is {studentName} and I am in {studentClass}")
 student(studentName="Chukwuebuka", studentClass= "JSS 2")
 
+
+#default parameters
+def fruits(Green="Apple"):
+    print(Green)
+
+fruits("Mango") #will print Mango
+fruits() # will print Apple
