@@ -19,5 +19,5 @@ def fullName(fname, lname):
 #Keyword Arguments
 def student(studentName, studentClass):
     print(f"My name is {studentName} and I am in {studentClass}")
-
 student(studentName="Chukwuebuka", studentClass= "JSS 2")
+
