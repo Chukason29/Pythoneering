@@ -28,3 +28,20 @@ def fruits(Green="Apple"):
 
 fruits("Mango") #will print Mango
 fruits() # will print Apple
+
+#passing a list as a parameter
+def friends(names):
+    for x in names:
+        print (f"friend ==> {x}")
+
+friends(["Tommyzan", "Wisdom", "Grace"])
+
+def tri_recursion(k):
+  if(k > 1):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 1
+  return result
+print("\n\nRecursion Example Results")
+tri_recursion(6)
