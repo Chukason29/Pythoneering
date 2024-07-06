@@ -20,3 +20,12 @@ def square(n):
 
 newList = lambda myList: list(map(square, myList))
 print(newList([1, 2, 3, 4, 5]))
+
+
+#Given the list ages = [5, 12, 17, 18, 24, 32], use the filter() function with a lambda to create a new list of ages greater than or equal to 18. Print the new list.
+def ageGrade(n):
+    if n >= 18:
+        return n
+newAges = lambda ageList: filter(ageGrade, ageList)
+
+print(newAges([5, 12, 17, 18, 24, 32]))
