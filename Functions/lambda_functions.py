@@ -26,6 +26,6 @@ print(newList([1, 2, 3, 4, 5]))
 def ageGrade(n):
     if n >= 18:
         return n
-newAges = lambda ageList: filter(ageGrade, ageList)
+newAges = lambda ageList: list(filter(ageGrade, ageList))
 
 print(newAges([5, 12, 17, 18, 24, 32]))
