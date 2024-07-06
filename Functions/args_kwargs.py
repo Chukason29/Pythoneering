@@ -10,6 +10,6 @@ names("ebuka", "victor", "love", "jane")
 #**kwargs are keyword arguments that can be 
 # kwargs returns a dictionary
 def humans(**kwargs):
-    print (kwargs)
+    print (kwargs) 
 
 humans(Male="orange", Female = "Mango")
