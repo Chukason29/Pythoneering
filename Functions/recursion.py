@@ -19,3 +19,11 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 print(factorial(5))
+
+def fibonnacci(n):
+    if n > 1:
+        fibnum = fibonnacci(n-1) +fibonnacci(n + 1)
+    else:
+        n = 1
+    return fibnum
+
