@@ -5,18 +5,12 @@ They are only used once and can
 """
 
 #Lets write a lambda function for adding two numbers
-
 add = lambda x, y: x + y
-
 print(add(3, 5)) #print 8
 
-# string revrsal using recursion
 
-def string_reverse(s):
-    #base case
-    if len(s) == 0:
-        return s
-    else:
-        return s[-1] + string_reverse(s[:-1])
+#Write a lambda function that takes two arguments, a and b, and returns their product. Use this lambda function to calculate the product of 4 and 5.
 
-print(string_reverse("Grace"))
+product = lambda a, b: a * b
+
+print(product(4, 5))
