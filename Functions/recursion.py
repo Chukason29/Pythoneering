@@ -32,10 +32,10 @@ def sumList (numList):
         return numList[0] + sumList(numList[1:]) #Add the first number to the remaining numbers
 print(sumList([1, 2, 3, 4, 5]))
 
-def reverseString(theString):
+def reverse_string(theString):
     if len(theString) == 0:
         return theString
     else:
-        return theString[-1] + reverseString(theString[:-1])
+        return theString[-1] + reverse_string(theString[:-1])
 
-print(reverseString("Arsenal"))
+print(reverse_string("Arsenal"))
