@@ -14,3 +14,8 @@ celciusToFahren = lambda n: (n * (9/5)) + 32
 celciusList = [0, 37, 100]
 tempList = list(map(celciusToFahren, celciusList))
 print(tempList)
+
+
+#String Lengths: Given a list of strings, return a list containing the lengths of each string
+strLen = lambda x: len(x)
+strList = ["Ebuka", "Wisdomdsasd", "gilkfg"]
