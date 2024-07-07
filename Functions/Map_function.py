@@ -19,3 +19,5 @@ print(tempList)
 #String Lengths: Given a list of strings, return a list containing the lengths of each string
 strLen = lambda x: len(x)
 strList = ["Ebuka", "Wisdomdsasd", "gilkfg"]
+stringList = list(map(strLen, strList))
+print(stringList)
