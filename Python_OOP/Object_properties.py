@@ -1,10 +1,10 @@
 class Country:
-    def __init__(this, name, continent, president):
+    def __init__(this, name: str, continent: str, president: str): #Always type the your parameters to accept a particular datatypes
         this.name = name
         this.continent = continent
         this.president = president
     
-    def changePresident(self, presName): # The self parameter is just a python conventii
+    def changePresident(self, presName: str): # The self parameter is just a python conventii
         self.presName = presName
         return self.presName
 
@@ -35,10 +35,10 @@ productData = {
 }
 #get 20% off all the products in the database using OOP
 class Product:
-    def twentyPercentOff(self, price): #removes 20% from each item's price
+    def twentyPercentOff(self, price: float): #removes 20% from each item's price
         return price - (price * 0.2)
 
-    def allproduct(self, db):
+    def allproduct(self, db: dict):
         for item in db:
             newPrice = self.twentyPercentOff(db[item]["price"]) #Calling a method from another method
             print(f"{db[item]["name"]}\n\t Old Price:{db[item]["price"]}\n\t New Price:{newPrice}")
