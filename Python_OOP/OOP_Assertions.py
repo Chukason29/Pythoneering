@@ -26,3 +26,4 @@ class Student:
         return self.ca1 + self.ca2 + self.exam
     
 studentScore = Student(pupil["name"], pupil["ca1"], pupil["ca2"], pupil["exam"])
+print(studentScore.sumGrades())
