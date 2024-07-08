@@ -10,4 +10,4 @@ class Car:
 
 
 myCar = Car("Benz", "A54", "White")
-print(myCar.ChangeColor()) #Prints Red in
+print(myCar.ChangeColor()) #Prints Red instead of white, because ChangeColor was specific
