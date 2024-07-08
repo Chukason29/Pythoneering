@@ -35,20 +35,16 @@ productData = {
 }
 #get 20% off all the products in the database using OOP
 class Product:
-    #def __init__(self, name, price, category):
-    #    self.name = name
-    #    self.price = price
-    #    self.category = category
     def twentyPercentOff(self, price): #removes 20% from each item's price
         return price - (price * 0.2)
-    
+
     def allproduct(self, db):
         for item in db:
-            newPrice = self.twentyPercentOff(db[item]["price"])
+            newPrice = self.twentyPercentOff(db[item]["price"]) #Calling a method from another method
             print(f"{db[item]["name"]}\n\t Old Price:{db[item]["price"]}\n\t New Price:{newPrice}")
-
 
 myProduct = Product()
 myProduct.allproduct(productData)
+
 
     
