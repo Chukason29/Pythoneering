@@ -13,6 +13,8 @@ class Student:
         self.age = age
 
 #creating sn object
-newStudent = Student("Tommyzan", 40) #The arguments reps the name and age in the __init__() of the student class
+student1 = Student("Tommyzan", 40) #The arguments reps the name and age in the __init__() of the student class
+student2 = Student("Patricia", 25)
 
-print(f"My name is  {newStudent.name} and I am {newStudent.age} years old")
+print(f"My name is  {student1.name} and I am {student1.age} years old")
+print(f"My name is {student2.name}, I'm the second student for GGSS")
