@@ -21,16 +21,30 @@ class Player:
 #Use of class and instance variables in product pricing
 class Product:
     #TODO: Declare class variables
+    priceCut = 0.7 #this is a class variable
 
     #TODO declare instance variables
+    def __init__(self, name: str, price: float, category: str):
+        self.name = name
+        self.price = price
+        self.category = category
 
     #TODO write a method the cuts product price by 30% using class variable
-    pass
+    def priceRate(self):
+        return self.price * self.priceCut
 
-#TODO 
+#TODO instantiate product1 ==> Product 1 should have a price cut of 50%
+product1 = Product("Phone", 1000.00, "Electronics")
+print(product1.priceRate())
 
 
+#TODO instantiate product2 ==> Product 1 should have a price cut of 50%
+product2 = Product("Shoe", 500.00, "Fashion")
+product2.priceCut = 0.5
+print(product2.priceRate())
 
+
+#NOTE==>  Every object checks for properties first from its instance variebles, then before checking for class variables
 
 
 
