@@ -5,7 +5,7 @@ For Example:
 Www.HackerRank.com → wWW.hACKERrANK.COM
 Pythonist 2 → pYTHONIST 2  
 """
-import re
+import re #used for regular expressions
 def swap_case(s):
     newWord = []
     for i in s:
