@@ -29,4 +29,5 @@ for x, y in productData.items():
     myProduct = Product()
     newPrice = myProduct.slashPrice(y["price"], 50)
     productData[x]["price"] = newPrice
+    print(f" {x}==>\n\t{y['price']} ")
     
