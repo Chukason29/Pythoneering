@@ -9,7 +9,7 @@ import re
 def swap_case(s):
     newWord = []
     for i in s:
-        x = re.findall("[a-zA-Z]", i)
+        x = re.findall("[a-zA-Z]", i) #checking if a letter is special character
         if x:
             if i.isupper():
                 newWord.append(i.lower())
