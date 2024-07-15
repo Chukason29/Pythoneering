@@ -14,7 +14,7 @@ def swap_case(s):
             if i.isupper():
                 newWord.append(i.lower()) #change to lower
             elif i.islower():
-                newWord.append(i.upper())
+                newWord.append(i.upper()) #change to upper
         else:
             newWord.append(i)
     return "".join(newWord)# joined all list items to a single word
