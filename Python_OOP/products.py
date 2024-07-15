@@ -21,10 +21,12 @@ productData = {
         "colour": "Blue"
     }
 }
-class Product:
-    def __init__(self, name, price, category, colour):
-        self.name = name
-        self.price = price
-        self.category = category
-        self.colour = colour
+class Product:   
+    def slashPrice(self, price, priceSlash):
+        return price * (1.00 - priceSlash/100)
+
+for x, y in productData.items():
+    myProduct = Product()
+    newPrice = myProduct.slashPrice(y["price"], 50)
+    productData[x]["price"] = newPrice
     
