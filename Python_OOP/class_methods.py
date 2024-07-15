@@ -4,10 +4,10 @@ class Car:
         self.model = model
         self.colour = colour
     
-    def ChangeColor(this):
-        this.colour = "Red"
-        return this.colour
+    def ChangeColor(self, colour):
+        self.colour = colour
+        return self.colour
 
 
 myCar = Car("Benz", "A54", "White")
-print(myCar.ChangeColor()) #Prints Red instead of white, because ChangeColor was specific
+print(myCar.ChangeColor("Blue")) #Prints blue instead of white, because ChangeColor was specific
