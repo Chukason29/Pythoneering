@@ -17,7 +17,7 @@ def swap_case(s):
                 newWord.append(i.upper())
         else:
             newWord.append(i)
-    return "".join(newWord)
+    return "".join(newWord)# joined all list items to a single word
 
 if __name__ == '__main__':
     s = input()
