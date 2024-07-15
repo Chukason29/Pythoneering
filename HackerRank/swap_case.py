@@ -12,7 +12,7 @@ def swap_case(s):
         x = re.findall("[a-zA-Z]", i) #checking if a letter is special character
         if x:
             if i.isupper():
-                newWord.append(i.lower())
+                newWord.append(i.lower()) #change to lower
             elif i.islower():
                 newWord.append(i.upper())
         else:
