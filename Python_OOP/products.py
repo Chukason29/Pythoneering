@@ -25,9 +25,9 @@ class Product:
     def slashPrice(self, price, priceSlash):
         return price * (1.00 - priceSlash/100)
 
-for x, y in productData.items():
-    myProduct = Product()
-    newPrice = myProduct.slashPrice(y["price"], 50)
-    productData[x]["price"] = newPrice
-    print(f" {x}==>\n\t{y['price']} ")
+for x, y in productData.items(): # for each item in productData
+    myProduct = Product() #create a new object
+    newPrice = myProduct.slashPrice(y["price"], 50) #apply slash price method
+    productData[x]["price"] = newPrice #make the slashed price the new price
+    print(f" {x}==>\n\t{y['price']} ") #print out the result
     
