@@ -7,7 +7,13 @@ Pythonist 2 → pYTHONIST 2
 """
 
 def swap_case(s):
-    return
+    newWord = []
+    for i in s:
+        if i.isupper():
+            newWord.append(i.lower())
+        elif i.islower():
+            newWord.append(i.upper())
+    return ''.join(newWord)
 
 if __name__ == '__main__':
     s = input()
