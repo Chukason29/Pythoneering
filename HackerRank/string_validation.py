@@ -44,8 +44,8 @@ if __name__ == '__main__':
                 break
         return verdict
     
-    #print(alnum(s))
-    #print(alpha(s))
-    #print(numeric(s))
-    #print(lower(s))
-    #print(upper(s))
+    ##print(alnum(s))
+    ##print(alpha(s))
+    ##print(numeric(s))
+    ##print(lower(s))
+    ##print(upper(s))
