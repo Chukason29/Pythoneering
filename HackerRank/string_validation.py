@@ -8,3 +8,7 @@ if __name__ == '__main__':
         print("True")
     else:
         print("False")
+    if s.isalpha():
+        print("True")
+    else:
+        print("False")
