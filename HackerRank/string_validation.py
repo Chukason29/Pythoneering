@@ -12,3 +12,15 @@ if __name__ == '__main__':
         print("True")
     else:
         print("False")
+    if s.isnumeric():
+        print("True")
+    else:
+        print("False")
+    if s.islower():
+        print("True")
+    else:
+        print("False")
+    if s.isupper():
+        print("True")
+    else:
+        print("False")
