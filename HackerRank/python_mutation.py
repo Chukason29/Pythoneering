@@ -15,7 +15,7 @@ string character: the character to insert
 def mutate_string(string: str, position, character):
     newString = list(string)
     newString[position] = character
-    return "".join()
+    return "".join(newString)
 
 if __name__ == '__main__':
     s = input()
