@@ -8,17 +8,24 @@ def count_substring(string, sub_string):
         for i in range(0, len(string)):
             if sub_string == string[i]:
                 count = count + 1
+    
     else:
         for i in range(0, len(string)):
             if len(string[i:]) == sub_string_length:
                 if string[i: ] == sub_string:
                     count = count + 1
-                    return count
+                    break
+            else:
+                word =  string[i : i + sub_string_length]
+                if word == sub_string:
+                   count = count + 1
+    return count
+    
                 
 
 if __name__ == '__main__':
     string = input().strip()
     sub_string = input().strip()
-    
     count = count_substring(string, sub_string)
     print(count)
+    
