@@ -47,5 +47,5 @@ if __name__ == '__main__':
     #print(alnum(s))
     #print(alpha(s))
     #print(numeric(s))
-    print(not "A123#".isupper())
+    #print(lower(s))
     #print(upper(s))
