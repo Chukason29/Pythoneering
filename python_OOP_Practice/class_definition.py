@@ -21,6 +21,8 @@ class Student:
 
 #Create objects from Students class
 student1 = Student("Uche", 1.4, 6)
+
+#printed name property
 print (student1.name)
 print (student1.age)
 print (student1.height)
