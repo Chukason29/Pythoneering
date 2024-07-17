@@ -11,3 +11,4 @@ class Car:
 
 myCar = Car("Benz", "A54", "White")
 print(myCar.ChangeColor("Blue")) #Prints blue instead of white, because ChangeColor was specific
+print(myCar.colour)
