@@ -43,7 +43,7 @@ if __name__ == '__main__':
                 break
         return verdict
     
-    print(alpha(s))
+    print(alnum(s))
     print(alpha(s))
     print(numeric(s))
     print(lower(s))
