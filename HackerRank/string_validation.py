@@ -3,18 +3,17 @@ You are given a string S.
 Your task is to find out if the string  contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
 """
 if __name__ == '__main__':
-    #s = input()
-    #for x in s:
-        #if not x.
-    def alnum(x):
-        verdict = ""
-        if x.isalnum():
-            verdict = "True"
-        else:
-            x.verdict = "False"
-        return verdict
+    s = input()
 
-    def alpha(n: str):
+    def alnum(n):
+        verdict = "False"
+        for i in n:
+            if i.isalnum():
+                verdict = "True"
+                break
+        return verdict
+    
+    def alpha(n):
         verdict = "False"
         for i in n:
             if i.isalpha():
@@ -24,12 +23,12 @@ if __name__ == '__main__':
     def numeric(n):
         verdict = "False"
         for i in n:
-            if i.isnumeric():
+            if i.isdigit():
                 verdict = "True"
                 break
         return verdict
 
-    def lower(n: str):
+    def lower(n):
         verdict = "False"
         for i in n:
             if i.islower() and not i.isupper():
@@ -44,10 +43,8 @@ if __name__ == '__main__':
                 break
         return verdict
     
-    ##print(alnum(s))
-    ##print(alpha(s))
-    ##print(numeric(s))
-    ##print(lower(s))
-    ##print(upper(s))
-
-    print ('1234##'.isdigit())
+    print(alpha(s))
+    print(alpha(s))
+    print(numeric(s))
+    print(lower(s))
+    print(upper(s))
