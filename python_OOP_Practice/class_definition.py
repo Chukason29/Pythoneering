@@ -27,6 +27,8 @@ print (student1.name)
 
 #printed age property
 print (student1.age)
+
+#printed height property
 print (student1.height)
 
 
