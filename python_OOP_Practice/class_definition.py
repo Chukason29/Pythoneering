@@ -21,6 +21,7 @@ class Student:
 
 #Create objects from Students class
 student1 = Student("Uche", 1.4, 6)
-print(student1)
+print (student1.name)
+
 
     
