@@ -49,3 +49,5 @@ if __name__ == '__main__':
     ##print(numeric(s))
     ##print(lower(s))
     ##print(upper(s))
+
+    print ('1234##'.isdigit())
