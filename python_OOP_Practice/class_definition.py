@@ -16,8 +16,14 @@ class Student:
         Student.allInstance.append(self) #with this all instances/objects are appended to the list at the time of creation
     
     #TODO write out static methods that belong only to classes
-    #@staticmethod
+    @staticmethod
     def staticMethod(params): #static methods do not require a self parameter 
+        pass
+
+    #TODO class methods are methods that can only be access by the class itself not by an instance
+    #e.g is the method used in creating objects for a class
+    @classmethod #==> always use decorators
+    def instantiate_objects(cls): #what self is to instance methods is what cls is to class methods
         pass
 
 
@@ -28,8 +34,15 @@ class Student:
     
     def adminMethod():
         newAdmin = Student.admin #Accessing class variables
+    
+    def __repr__(self): # magic method is needed when trying to show all the instances in allInstance list
+        return f"Student({self.name}, {self.age}, {self.height})"
 
 #Create objects from Students class
-student1 = Student("Uche", 1.4, 6)
+student1 = Student("Uche", 2.4, 6)
+student1 = Student("Dera", 3.4, 7)
+student1 = Student("Ebuks", 4.4, 8)
+student1 = Student("Amy", 5.4, 9)
+student1 = Student("Chybuz", 6.4, 10)   
 
-    
+print(Student.allInstance)
