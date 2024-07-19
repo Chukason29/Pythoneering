@@ -24,7 +24,6 @@ class Student:
     #e.g one example is the method used in creating objects for a class
     @classmethod #==> always use decorators
     def instantiate_objects(cls): #what self is to instance methods is what cls is to class methods
-
         pass
 
 
