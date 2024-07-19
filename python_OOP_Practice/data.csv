@@ -1,6 +1,6 @@
-id, name, age, height
-1, "Tommyzan",20,1.79
-2, "Ebuka",21,1.65
-3, "Grace",22,1.55
-4, "Ngozi",19,1.77
-5, "Tamuno",23,1.62
+name,age,height
+"Tommyzan",20,1.79
+"Ebuka",21,1.65
+"Grace",22,1.55
+"Ngozi",19,1.77
+"Tamuno",23,1.62
